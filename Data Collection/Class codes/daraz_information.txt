@@ -1,0 +1,13 @@
+heading : <h1 class="pdp-mod-product-badge-title" data-spm-anchor-id="a2a0e.pdp_revamp.0.i0.328623b4MF99W7">4G Wifi Airport Router with Battery black colur</h1>
+
+rating : <a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="a2a0e.pdp_revamp.0.0">9 Ratings</a>
+
+price : <span class="notranslate pdp-price pdp-price_type_normal pdp-price_color_orange pdp-price_size_xl" data-spm-anchor-id="a2a0e.pdp_revamp.0.i9.328623b4MF99W7">৳ 1,690</span>
+
+product details headline: <h2 class="pdp-mod-section-title outer-title" data-spm-anchor-id="a2a0e.pdp_revamp.0.i10.328623b4MF99W7">Product details of 4G Wifi Airport Router with Battery black colur</h2>
+
+product details in short: <li class="" data-spm-anchor-id="a2a0e.pdp_revamp.product_detail.i2.328623b4MF99W7">Product detailsHighlights• Brand: Jio• Model: MF680s• Connectivity: 4G LTE (all SIMs)• Network Type: 3G / 4G Download speed: Up to 300 Mbps• Battery capacity: 2100mAh• Frequency: 2.4 GHz• Users: 10+1 user• Button: POWER, Reset, WPS• Antenna: 4G Antenna*2; WIFI Antenna 2*2 Coverage radius: 50m -Micro-SD card-Micro-USB portStandard WAN: LTE(B1 / B3 / B5 / B8) IEEE 802.11b/g/n 2.4G only</li>
+
+product details in full: <div class="html-content detail-content"><p>Product details</p><p data-spm-anchor-id="a2a0e.pdp_revamp.product_detail.i6.328623b4MF99W7">Highlights</p><p data-spm-anchor-id="a2a0e.pdp_revamp.product_detail.i1.328623b4MF99W7">• Brand: Jio</p><p data-spm-anchor-id="a2a0e.pdp_revamp.product_detail.i3.328623b4MF99W7">• Model: MF680s</p><p>• Connectivity: 4G LTE (all SIMs)</p><p>• Network Type: 3G / 4G</p><p> Download speed: Up to 300 Mbps</p><p data-spm-anchor-id="a2a0e.pdp_revamp.product_detail.i5.328623b4MF99W7">• Battery capacity: 2100mAh</p><p>• Frequency: 2.4 GHz</p><p data-spm-anchor-id="a2a0e.pdp_revamp.product_detail.i4.328623b4MF99W7">• Users: 10+1 user</p><p>• Button: POWER, Reset, WPS</p><p>• Antenna: 4G Antenna*2; WIFI Antenna 2*2</p><p data-spm-anchor-id="a2a0e.pdp_revamp.product_detail.i0.328623b4MF99W7"> Coverage radius: 50m -Micro-SD card-Micro-USB portStandard WAN: LTE(B1 / B3 / B5 / B8) IEEE 802.11b/g/n 2.4G only<img src="https://img.drz.lazcdn.com/g/kf/S5240a7a23df94d03a6a1f1dd00280136c.jpg_2200x2200q80.jpg_.webp"><img src="https://img.drz.lazcdn.com/g/kf/Sd658985c2af046d9a02506c205b7daack.jpg_2200x2200q80.jpg_.webp"><img src="https://img.drz.lazcdn.com/g/kf/Sb06e9bb13fd74719bf4576bfadf36fc71.jpg_2200x2200q80.jpg_.webp"><img src="https://img.drz.lazcdn.com/g/kf/S7199223aca7d4593ade68264a7a75bfax.jpg_2200x2200q80.jpg_.webp"><img src="https://img.drz.lazcdn.com/g/kf/S276556b483164e4aa65aeb1e5a94a6f3p.jpg_2200x2200q80.jpg_.webp"></p></div>
+
+

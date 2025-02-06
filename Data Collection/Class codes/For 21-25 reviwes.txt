@@ -1,0 +1,13 @@
+For 21-25 reviwes (5 paginations):
+
+previous button:
+//*[@id="module_product_review"]/div/div/div[3]/div[2]/div/button[1]
+
+b1://*[@id="module_product_review"]/div/div/div[3]/div[2]/div/div/button[1]
+b2://*[@id="module_product_review"]/div/div/div[3]/div[2]/div/div/button[2]
+b3://*[@id="module_product_review"]/div/div/div[3]/div[2]/div/div/button[3]
+b4://*[@id="module_product_review"]/div/div/div[3]/div[2]/div/div/button[4]
+b5://*[@id="module_product_review"]/div/div/div[3]/div[2]/div/div/button[5]
+
+next button:
+//*[@id="module_product_review"]/div/div/div[3]/div[2]/div/button[2]/i
