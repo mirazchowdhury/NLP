@@ -18,8 +18,8 @@ search_query = st.text_input("Enter your search query:")
 if st.button("Submit") and search_query:
     # Set up Chrome options for Selenium
     chrome_options = Options()
-    chrome_options.add_argument("--headless")  # Run browser in background
-    chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     
@@ -35,19 +35,22 @@ if st.button("Submit") and search_query:
     # Wait for results to load
     time.sleep(2)
     
-    # Collect links from first three pages of results
+    # Collect links from the first three pages
     links = []
-    for i in range(3):
-        # Update XPath for search result links
-        results = driver.find_elements(By.XPATH, '//div[@class="g"]//a')
-        for result in results:
-            link = result.get_attribute('href')
-            if link:
-                links.append(link)
+    for page in range(1, 4):  # Iterate for 3 pages
+        for i in range(1, 12, 2):  # Loop to cover div[1], div[3], div[5], ..., div[11]
+            try:
+                link_element = driver.find_element(By.XPATH, f'/html/body/div[3]/div/div[12]/div/div/div[2]/div[2]/div/div/div[{i}]/div/div/div/div[1]/div/div/span/a')
+                link = link_element.get_attribute('href')
+                if link:
+                    links.append(link)
+            except Exception as e:
+                # Ignore if no link is found at the specific index
+                continue
         
-        # Navigate to the next page if not on the last page
+        # Navigate to the next page
         try:
-            next_button = driver.find_element(By.XPATH, '//*[@id="pnnext"]')
+            next_button = driver.find_element(By.XPATH, '/html/body/div[3]/div/div[12]/div/div/div[4]/div/div[3]/table/tbody/tr/td[12]/a')
             next_button.click()
             time.sleep(2)
         except Exception as e:
@@ -63,4 +66,3 @@ if st.button("Submit") and search_query:
         st.table(df)
     else:
         st.write("No results found.")
-
