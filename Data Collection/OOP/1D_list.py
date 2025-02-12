@@ -4,3 +4,4 @@ size_elements = len(elements)
 #     print(i)
 for i in range(size_elements):
     print(elements[i])
+
