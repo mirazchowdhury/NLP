@@ -1,5 +1,7 @@
-txt = "H\te\tl\tl\to"
 
-x =  txt.expandtabs(2)
+
+txt = "Hello, welcome to my world."
+
+x = txt.endswith(".")
 
 print(x)

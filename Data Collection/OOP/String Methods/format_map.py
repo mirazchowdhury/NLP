@@ -1,5 +1,1 @@
-txt = "Hello, welcome to my world."
-
-x = txt.index("welcome")
-
-print(x)
+#format_map()	: Formats specified values in a string
