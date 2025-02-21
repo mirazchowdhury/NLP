@@ -1,6 +1,7 @@
 class Software_Engineer:
     def __init__(self,exp_level):
         self.exp = exp_level
+    
     def cal_salary(self):
         base_salary = 100000
         actual_salary = 100000 * self.exp
