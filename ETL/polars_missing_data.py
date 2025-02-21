@@ -4,11 +4,11 @@ df = pl.DataFrame(data)
 
 print(df)
 
-for col in df.columns:
-    print(col)
+# for col in df.columns:
+#     print(col)
 
-# rm_row = df.drop_nulls()
-# rm_col = df.select()
+rm_row = df.drop_nulls()
+rm_col = df.select(col for col in df.columns if df[col].is_not_null().all())
 
 # print(rm_row)
 # print(rm_col)
