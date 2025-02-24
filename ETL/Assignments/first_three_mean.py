@@ -5,7 +5,7 @@ data = {'id': [1, 2, 3, 4, 5, None, 7, 8, None, 10],
         'score': [10, 20, 20, 40, 50, 50, 60, None, 90, 100]}
 df = pd.DataFrame(data)
 
-# Iterate through each column in the DataFrame
+# Iterate through each column in the DataFrame        5 --- 4,3,2
 for col in df.columns:
     nan_indices = df[df[col].isna()].index  # Get indices where NaN values exist
 
